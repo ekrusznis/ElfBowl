@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="384dp"
+    android:layout_height="256dp"
+    android:background="#ec6668f8"
+    android:padding="16dp"
+    android:id="@+id/finish_layout">
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:text="PLAY AGAIN"
+        android:id="@+id/play_again_button"
+        android:layout_x="53dp"
+        android:layout_y="135dp"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:background="@drawable/level_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:text="FINISH"
+        android:id="@+id/play_finish_button"
+        android:layout_x="212dp"
+        android:layout_y="135dp"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"
+        android:background="@drawable/level_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/score_view"
+        android:textSize="24dp"
+        android:textColor="#fff9fe"
+        android:layout_x="260dp"
+        android:layout_y="49dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Score of this round is"
+        android:id="@+id/label_view"
+        android:textIsSelectable="false"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/score_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

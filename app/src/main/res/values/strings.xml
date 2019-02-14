@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Elf Bowling</string>
+    <string name="play">PLAY</string>
+    <string name="quit">QUIT</string>
+    <string name="exit">EXIT</string>
+    <string name="header">LATEST SCORES</string>
+</resources>
